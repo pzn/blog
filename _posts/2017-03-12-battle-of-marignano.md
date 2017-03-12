@@ -2,7 +2,7 @@
 layout:     post
 title:      The Dates of the Battle of Marignano
 date:       2017-03-12
-summary:    Because September 13th of 1515 is gregorianly not.
+summary:    Because September 13th and 14th of 1515 are gregorianly not.
 ---
 
 The Battle of Marignano (_La Bataille de Marignan_ in French) was a war fought between France (led by Francis I of France, _François 1er_ in French) and the Old Swiss Confederacy, between September 13 and 14 of 1515.
