@@ -77,6 +77,6 @@ Hopefully, we don't have such stories as _Support for pre-Gregorian dates for bi
 
 Additional resources about the subject:
 
-*  [en.wikipedia.org/wiki/Adoption_of_the_Gregorian_calendar](https://en.wikipedia.org/wiki/Adoption_of_the_Gregorian_calendar)
-*  Famous take on timezones of Tom Scott [Youtube: Computerphile](https://youtu.be/-5wpm-gesOY)
+* [en.wikipedia.org/wiki/Adoption_of_the_Gregorian_calendar](https://en.wikipedia.org/wiki/Adoption_of_the_Gregorian_calendar)
+* Famous take on timezones of Tom Scott [Youtube: Computerphile](https://youtu.be/-5wpm-gesOY)
 * Leap Years: we can do better [Youtube: standupmaths](https://youtu.be/qkt_wmRKYNQ)
