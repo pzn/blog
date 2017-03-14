@@ -52,7 +52,7 @@ Yep, this was the date when many countries changed their Julian calendar system 
 
 > In these countries, the year continued as normal until Thursday, October 4. However, the next day became Friday, October 15 (like a common year starting on Friday) [...]
 
-In other words, Friday, October 5th of 1582 never existed. As much as the date suntil October 15th of 1582.
+In other words, Friday, October 5th of 1582 never existed. As much as the dates until October 15th of 1582.
 
 Well, not exactly. These dates existed, but not in the countries who  first adopted the Gregorian calendar.
 
