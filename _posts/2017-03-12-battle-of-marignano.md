@@ -15,9 +15,9 @@ Anyway, a few weeks ago, I was writing some Java unit tests for some component a
 
 <script src="https://gist.github.com/pzn/d7842065f86c64a61462876bf66f8dd6.js"></script>
 
-I am the kind of guy who likes easter eggs (who doesn't?), especially when they are unsual, and when you can learn something. What a beautiful places tests are for that!
+I am the kind of guy who likes easter eggs (who doesn't?), especially when they are unsual, and when you can learn something... What beautiful places tests are for such purpose!
 
-I would use this famous war dates as boundaries for testing my component.
+I would use the year of this famous war as boundaries for testing my component.
 
 <script src="https://gist.github.com/pzn/ec601e3191f92995960fe90085a0af28.js"></script>
 
@@ -36,7 +36,7 @@ Wat? How is it possible to lose 10 days when transposing a `LocalDateTime` to a 
 
 No, it cannot be. Please don't be a Java issue.
 
-Hopefully, I just lost a few minutes before realizing that my unit tests were behaving not as expected due to the Battle of Marignano. This day, I finally gave up to go back to contemporary _boring_ dates.
+Hopefully, I just _lost_ a few minutes before realizing that my unit tests were behaving not as expected due to the Battle of Marignano. Today's year was working fine. So I finally gave up to go back to contemporary _boring_ dates.
 
 Today in Canada, we switched to daylight saving time, ~~losing one hour of sleep~~ adding one hour to our clocks. Remembering not knowing why September 13th of 1515 was breaking my unit tests, today was a good day to uncover the truth about it, ending writing up this world-class Java champion _main_ of mine:
 
@@ -52,9 +52,9 @@ Yep, this was the date when many countries changed their Julian calendar system 
 
 > In these countries, the year continued as normal until Thursday, October 4. However, the next day became Friday, October 15 (like a common year starting on Friday) [...]
 
-In other words, Friday, October 5th of 1582 never existed. Nor dates up to October 14th of 1582.
+In other words, Friday, October 5th of 1582 never existed. As much as the dates until October 15th of 1582.
 
-Well not exactly. These dates existed, but not in the countries who  first adopted the Gregorian calendar.
+Well, not exactly. These dates existed, but not in the countries who  first adopted the Gregorian calendar.
 
 > [...] adopted by Spain, Portugal, the Polish–Lithuanian Commonwealth and most of present-day Italy from the start.
 
@@ -65,7 +65,7 @@ Other countries adopted the Gregorian calendar later in the history.
 - UK and part of the Eastern USA (then possessed by the British Empire) adopted it in 1752 (more than two centuries later!)
 - Greece in 1923!
 
-For Java, October 15, 1582 is the default point in the history when the switch happened, cf. [javadoc](http://docs.oracle.com/javase/8/docs/api/java/util/GregorianCalendar.html#setGregorianChange-java.util.Date-). Meaning that, even if you set your timezone to _Europe/Paris_, you still have this bump in the history, despite France still hadn't adopted the Gregorian calendar.
+For Java, [October 15, 1582 is the default point in the history when the switch happened](http://docs.oracle.com/javase/8/docs/api/java/util/GregorianCalendar.html#setGregorianChange-java.util.Date-). Meaning that, even if you set your timezone to _Europe/Paris_(was it even a thing?), you still have this bump in the history, despite France still hadn't adopted the Gregorian calendar.
 
 And I thought timezones were the worst thing in programming!
 
@@ -79,5 +79,5 @@ Additional resources about the subject:
 
 * [On This Day: In 1582, October 5 Never Happened](http://www.findingdulcinea.com/news/on-this-day/September-October-08/On-this-Day--In-1582--Oct--5-Did-Not-Exist-.html) (findingdulcinea.com)
 * [Adoption of the Gregorian calendar](https://en.wikipedia.org/wiki/Adoption_of_the_Gregorian_calendar) (Wikipedia)
-* [Famous take on timezones of Tom Scott](https://youtu.be/-5wpm-gesOY) (Youtube)
+* [Famous take on timezones from Tom Scott of Computerphile](https://youtu.be/-5wpm-gesOY) (Youtube)
 * [Leap Years: we can do better](https://youtu.be/qkt_wmRKYNQ) (Youtube)
